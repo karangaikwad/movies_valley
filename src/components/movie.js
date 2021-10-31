@@ -9,8 +9,9 @@ function Movie(props) {
         </div>;
       })} */}
       <div>
-        {/* <img src={"https://image.tmdb.org/t/p/w500" + props.movies.results[2].poster_path}/>
-        <h1>{props.movies.results[2].title}</h1> */}
+        
+         <img src={"https://image.tmdb.org/t/p/w500" + props.movies.results[2].poster_path}  />
+         
       
       </div>
     </>
