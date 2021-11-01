@@ -1,8 +1,12 @@
 .img1 {
   border-radius: 10px;
-  margin-left: 1%;
-  margin-top: 1%;
+  margin: 10px;
   width: 150px;
+}
+
+.img1:hover {
+  transition: transform 0.5s; /* Animation */
+  transform: scale(1.3);
 }
 .color1 {
   background-color: aquamarine;
@@ -10,32 +14,15 @@
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 400vw;
-  
 }
 ::-webkit-scrollbar {
   display: none;
 }
 
-.zoom {
-  padding: 50px;
-  
-  transition: transform .2s; /* Animation */
-  width: 300px;
-  height: 400px;
-  margin: 0 auto;
+.backgroundcolor1 {
+  background-color: #3b185f;
 }
-
-.zoom:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.outer {
+  height: 90%;
+  width: 90%;
 }
-
-
-  
-    
-    
-   
-    
-    
-    
-    
