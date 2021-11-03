@@ -9,10 +9,7 @@
   transform: scale(1.3);
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: row;
-}
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -25,5 +22,24 @@
   width: 90%;
 }
 .color1 {
-  color: aliceblue;
+  color: rgb(27, 87, 47);
 }
+.container-fluid{
+  background-color: brown;
+  
+  
+  padding-top: 23%;
+  padding-right: 10%;
+  margin-top: 1%;
+  margin-left: 1%;
+ 
+  
+}
+.wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  
+}
+

@@ -4,7 +4,8 @@ function Movie(props) {
     props.change(movieid);
   }
   return (
-    <div className="outer-wrapper">
+    <div class="container-fluid"  >
+    
       <div className="wrapper">
         {props.movies.results.map((movie) => {
           return (
@@ -19,7 +20,8 @@ function Movie(props) {
           );
         })}
       </div>
-    </div>
+      </div>
+    
   );
 }
 export default Movie;
