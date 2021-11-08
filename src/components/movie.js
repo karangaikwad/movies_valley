@@ -4,7 +4,7 @@ function Movie(props) {
     props.change(movieid);
   }
   return (
-    <div class="container-fluid"  >
+    <div className="container-fluid cont-fld"  >
     
       <div className="wrapper">
         {props.movies.results.map((movie) => {
